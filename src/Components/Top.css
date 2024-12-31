@@ -1,0 +1,182 @@
+.container {
+  min-height: 100vh;
+  min-width: 100vh;
+  background-image: url("../assets/images/city1.jpg");
+  background-size: cover;
+  display: flex;
+}
+
+.center {
+  width: 95vh;
+  color: white;
+  height: 90vh;
+  margin: auto;
+  background-image: url("../assets/images/background.jpg");
+  background-size: 130vh 139vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position-x: -110px;
+  background-position-y: -130px;
+}
+
+.centerin {
+  width: 92vh;
+  height: 87vh;
+  margin: auto auto;
+  display: flex;
+}
+
+.centerleft {
+  width: 50vh;
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../assets/images/city.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -200px;
+}
+
+.centerright {
+  height: 87vh;
+  width: 42vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.place {
+  margin: 3px;
+  margin-left: auto;
+  padding: 15px;
+  font-family: fangsong;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+  align-content: right;
+}
+
+.last {
+  align-content: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+#p1 {
+  font-size: 28px;
+  padding-left: 3px;
+}
+
+#p2 {
+  font-size: 12px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+}
+
+.temp {
+  padding-right: 7px;
+  font-size: 45px;
+  padding-bottom: 5px;
+}
+
+.rightcontent {
+
+  width: 36vh;
+  height: 80vh;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.animation {
+
+  align-items: center;
+  width: 35vh;
+  height: 30vh;
+  margin: 0px auto;
+  background: transparent;
+  border: none;
+  outline: none;
+  align-items: center;
+}
+
+.sun ,#ani{ 
+   width: 35vh;
+   height: 30vh;
+   margin: auto;
+}
+
+.condition {
+  border-bottom: 2px solid white;
+  border-radius: 1px;
+  width: 35vh;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.search,
+.temperature,
+.humidity,
+.wind,
+.visibility {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.804);
+  border-radius: 1px;
+  justify-content: space-between;
+  width: 30vh;
+  margin: 0px auto;
+  margin-top: 5px;
+  padding: 3px;
+  color: rgba(255, 255, 255, 0.875);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  background-color: rgba(0, 0, 0, 0.518);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 22vh;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.icon {
+  background-image: url(../assets/images/download.png);
+  width: 4vh;
+  background-size: 3vh 3vh;
+  background-repeat: no-repeat;
+  height: 4vh;
+  background-position-x: 3px;
+  background-position-y: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: rgba(72, 176, 64, 0.474);
+}
+
+.location {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.804);
+  border-radius: 1px;
+  font-size: 14px;
+  width: 30vh;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
